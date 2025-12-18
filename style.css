@@ -1,0 +1,207 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.second{
+    display:flex;
+    padding-bottom: 30px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 140px;
+}
+
+.btn{
+color:white;
+background-color: rgb(198, 133, 10);
+border-radius: 4px;
+display:inline-flex;
+height: 30px;
+width: 100px;
+justify-content: center;
+align-items: center;
+border: none;
+text-decoration: none;
+}
+
+.btn:hover {
+    color: #a42727;          /* change text color on hover */
+    border-bottom: 2px solid #b71220;  /* visible underline on hover */
+}
+
+.image{
+    width:100%;
+}
+/* .img1{
+    width:30%;
+} */
+
+.bloom{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(84, 81, 81);
+    color: white;
+    font-size: xx-large;
+    /* padding: 10px 40px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    border-radius: 40px 40px 0 0; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.menu a {
+    text-decoration: none;  /* remove default underline */
+    color: white;            /* default color */
+    font-size: 20px;
+    transition: color 0.3s, border-bottom 0.3s; /* smooth effect */
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;      /* invisible underline */
+    
+}
+
+.btn:hover{
+    background-color: #b57a07; /* change text color on hover */
+    color: white;              /* visible underline on hover */         
+}
+
+
+.menu{
+    /* background-color: antiquewhite; */
+    list-style: none;
+    display:flex;
+    gap: 50px;
+}
+
+.third{
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-between; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin:auto;
+     width:100%;
+    padding: 50px;
+    
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card-child{
+    width:30%;
+    text-align: justify;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.heading{
+    padding-left:  70px;
+}
+.card-child>img{
+    width: 100%;
+    border: none;
+    /* border-radius: 8px; */
+    /* margin-bottom: 10px; */
+}
+.card-child>p{
+    padding-top: 20px;
+}
+
+.card-child > .btn{
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: rgb(84, 81, 81);
+    color: white;
+    margin-top: 60px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-center,
+.footer-right{
+    width: 250px;
+}
+
+.footer-logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.footer-center ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li{
+    margin-bottom: 8px;
+}
+
+.footer-center ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-center ul li a:hover{
+    color: #FFD700;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(60, 58, 58);
+    font-size: 14px;
+}
